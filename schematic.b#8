@@ -351,126 +351,6 @@ chip</description>
 </package>
 </packages>
 </library>
-<library name="LDL_vreg">
-<packages>
-<package name="SOT223">
-<description>&lt;b&gt;Small Outline Transistor 223&lt;/b&gt;&lt;p&gt;
-PLASTIC PACKAGE CASE 318E-04&lt;br&gt;
-Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
-<wire x1="3.277" y1="1.778" x2="3.277" y2="-1.778" width="0.2032" layer="21"/>
-<wire x1="3.277" y1="-1.778" x2="-3.277" y2="-1.778" width="0.2032" layer="21"/>
-<wire x1="-3.277" y1="-1.778" x2="-3.277" y2="1.778" width="0.2032" layer="21"/>
-<wire x1="-3.277" y1="1.778" x2="3.277" y2="1.778" width="0.2032" layer="21"/>
-<wire x1="0" y1="-0.7" x2="0" y2="0.6" width="0.127" layer="48"/>
-<wire x1="0" y1="0.6" x2="-0.2" y2="0.2" width="0.127" layer="48"/>
-<wire x1="-0.2" y1="0.2" x2="0.2" y2="0.2" width="0.127" layer="48"/>
-<wire x1="0.2" y1="0.2" x2="0" y2="0.6" width="0.127" layer="48"/>
-<wire x1="0" y1="-0.7" x2="0.2" y2="-0.3" width="0.127" layer="48"/>
-<wire x1="0.2" y1="-0.3" x2="-0.2" y2="-0.3" width="0.127" layer="48"/>
-<wire x1="-0.2" y1="-0.3" x2="0" y2="-0.7" width="0.127" layer="48"/>
-<smd name="GND" x="-2.3" y="-3.15" dx="1.5" dy="2" layer="1"/>
-<smd name="VOUT2" x="0" y="-3.15" dx="1.5" dy="2" layer="1"/>
-<smd name="VIN" x="2.3" y="-3.15" dx="1.5" dy="2" layer="1"/>
-<smd name="VOUT1" x="0" y="3.15" dx="3.8" dy="2" layer="1"/>
-<text x="-2.54" y="0.0508" size="1.27" layer="25">&gt;NAME</text>
-<text x="-2.54" y="-1.3208" size="1.27" layer="27">&gt;VALUE</text>
-<text x="0.4" y="0.4" size="0.254" layer="48">direction of pcb</text>
-<text x="0.4" y="-0.05" size="0.254" layer="48">transportation for</text>
-<text x="0.4" y="-0.5" size="0.254" layer="48">wavesoldering</text>
-<rectangle x1="-0.9271" y1="1.1303" x2="0.9271" y2="4.3307" layer="51" rot="R270"/>
-<rectangle x1="-0.9271" y1="-3.1623" x2="0.9271" y2="-2.2987" layer="51" rot="R270"/>
-<rectangle x1="-3.2385" y1="-3.1623" x2="-1.3843" y2="-2.2987" layer="51" rot="R270"/>
-<rectangle x1="1.3843" y1="-3.1623" x2="3.2385" y2="-2.2987" layer="51" rot="R270"/>
-<rectangle x1="-0.9271" y1="1.1303" x2="0.9271" y2="4.3307" layer="51" rot="R270"/>
-<rectangle x1="-0.9271" y1="-3.1623" x2="0.9271" y2="-2.2987" layer="51" rot="R270"/>
-<rectangle x1="-3.2385" y1="-3.1623" x2="-1.3843" y2="-2.2987" layer="51" rot="R270"/>
-<rectangle x1="1.3843" y1="-3.1623" x2="3.2385" y2="-2.2987" layer="51" rot="R270"/>
-</package>
-</packages>
-</library>
-<library name="pcm3168">
-<packages>
-<package name="QFN-64-9X9MM">
-<description>&lt;h3&gt;64-pin QFN 9x9mm, 0.5mm pitch&lt;/h3&gt;
-&lt;p&gt;Package used by ATmega128RFA1&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://www.atmel.com/Images/Atmel-8266-MCU_Wireless-ATmega128RFA1_Datasheet.pdf"&gt;Example Datasheet&lt;/a&gt;&lt;/p&gt;</description>
-<wire x1="0.008" y1="10" x2="0.008" y2="0" width="0.09" layer="51"/>
-<text x="5" y="5.02" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="5" y="5.03" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<wire x1="0" y1="0.008" x2="10" y2="0.008" width="0.09" layer="51"/>
-<wire x1="9.992" y1="0" x2="9.992" y2="10" width="0.09" layer="51"/>
-<smd name="VCOMAD" x="-0.5" y="8.75" dx="0.3" dy="1" layer="1" rot="R270"/>
-<smd name="AGNDAD2" x="-0.5" y="8.25" dx="0.3" dy="1" layer="1" rot="R90"/>
-<smd name="VCCAD2" x="-0.5" y="7.75" dx="0.3" dy="1" layer="1" rot="R90"/>
-<smd name="RST" x="-0.5" y="7.25" dx="0.3" dy="1" layer="1" rot="R90"/>
-<smd name="OVF" x="-0.5" y="6.75" dx="0.3" dy="1" layer="1" rot="R90"/>
-<smd name="LRCKAD" x="-0.5" y="6.25" dx="0.3" dy="1" layer="1" rot="R90"/>
-<smd name="BCKAD" x="-0.5" y="5.75" dx="0.3" dy="1" layer="1" rot="R90"/>
-<smd name="DOUT1" x="-0.5" y="5.25" dx="0.3" dy="1" layer="1" rot="R90"/>
-<smd name="DOUT2" x="-0.5" y="4.75" dx="0.3" dy="1" layer="1" rot="R90"/>
-<smd name="DOUT3" x="-0.5" y="4.25" dx="0.3" dy="1" layer="1" rot="R90"/>
-<smd name="DGND2" x="-0.5" y="3.75" dx="0.3" dy="1" layer="1" rot="R90"/>
-<smd name="VDD2" x="-0.5" y="3.25" dx="0.3" dy="1" layer="1" rot="R90"/>
-<smd name="ZERO" x="-0.5" y="2.75" dx="0.3" dy="1" layer="1" rot="R90"/>
-<smd name="VCCDA1" x="-0.5" y="2.25" dx="0.3" dy="1" layer="1" rot="R90"/>
-<smd name="VCOMDA" x="-0.5" y="1.75" dx="0.3" dy="1" layer="1" rot="R90"/>
-<smd name="AGNDDA1" x="-0.5" y="1.25" dx="0.3" dy="1" layer="1" rot="R90"/>
-<smd name="VOUT8+" x="1.25" y="-0.5" dx="0.3" dy="1" layer="1"/>
-<smd name="VOUT8-" x="1.75" y="-0.5" dx="0.3" dy="1" layer="1" rot="R180"/>
-<smd name="VOUT7+" x="2.25" y="-0.5" dx="0.3" dy="1" layer="1" rot="R180"/>
-<smd name="VOUT7-" x="2.75" y="-0.5" dx="0.3" dy="1" layer="1" rot="R180"/>
-<smd name="VOUT6+" x="3.25" y="-0.5" dx="0.3" dy="1" layer="1" rot="R180"/>
-<smd name="VOUT6-" x="3.75" y="-0.5" dx="0.3" dy="1" layer="1" rot="R180"/>
-<smd name="VOUT5+" x="4.25" y="-0.5" dx="0.3" dy="1" layer="1" rot="R180"/>
-<smd name="VOUT5-" x="4.75" y="-0.5" dx="0.3" dy="1" layer="1" rot="R180"/>
-<smd name="VOUT4+" x="5.25" y="-0.5" dx="0.3" dy="1" layer="1" rot="R180"/>
-<smd name="VOUT4-" x="5.75" y="-0.5" dx="0.3" dy="1" layer="1" rot="R180"/>
-<smd name="VOUT3+" x="6.25" y="-0.5" dx="0.3" dy="1" layer="1" rot="R180"/>
-<smd name="VOUT3-" x="6.75" y="-0.5" dx="0.3" dy="1" layer="1" rot="R180"/>
-<smd name="VOUT2+" x="7.25" y="-0.5" dx="0.3" dy="1" layer="1" rot="R180"/>
-<smd name="VOUT2-" x="7.75" y="-0.5" dx="0.3" dy="1" layer="1" rot="R180"/>
-<smd name="VOUT1+" x="8.25" y="-0.5" dx="0.3" dy="1" layer="1" rot="R180"/>
-<smd name="VOUT1-" x="8.75" y="-0.5" dx="0.3" dy="1" layer="1" rot="R180"/>
-<smd name="AGNDDA2" x="10.5" y="1.3" dx="0.3" dy="1" layer="1" rot="R90"/>
-<smd name="VCCDA2" x="10.5" y="1.8" dx="0.3" dy="1" layer="1" rot="R270"/>
-<smd name="LRCKDA" x="10.5" y="2.3" dx="0.3" dy="1" layer="1" rot="R270"/>
-<smd name="BCKDA" x="10.5" y="2.8" dx="0.3" dy="1" layer="1" rot="R270"/>
-<smd name="DIN1" x="10.5" y="3.3" dx="0.3" dy="1" layer="1" rot="R270"/>
-<smd name="DIN2" x="10.5" y="3.8" dx="0.3" dy="1" layer="1" rot="R270"/>
-<smd name="DIN3" x="10.5" y="4.3" dx="0.3" dy="1" layer="1" rot="R270"/>
-<smd name="DIN4" x="10.5" y="4.8" dx="0.3" dy="1" layer="1" rot="R270"/>
-<smd name="SCKI" x="10.5" y="5.3" dx="0.3" dy="1" layer="1" rot="R270"/>
-<smd name="MC/SCL/FMT" x="10.5" y="5.8" dx="0.3" dy="1" layer="1" rot="R270"/>
-<smd name="MDI/SDA/DEMP" x="10.5" y="6.3" dx="0.3" dy="1" layer="1" rot="R270"/>
-<smd name="MDO/ADR1/MD1" x="10.5" y="6.8" dx="0.3" dy="1" layer="1" rot="R270"/>
-<smd name="MS/ADR0/MD0" x="10.5" y="7.3" dx="0.3" dy="1" layer="1" rot="R270"/>
-<smd name="VDD1" x="10.5" y="7.8" dx="0.3" dy="1" layer="1" rot="R270"/>
-<smd name="DGND1" x="10.5" y="8.3" dx="0.3" dy="1" layer="1" rot="R270"/>
-<smd name="MODE" x="10.5" y="8.8" dx="0.3" dy="1" layer="1" rot="R270"/>
-<smd name="VCCAD1" x="8.75" y="10.5" dx="0.3" dy="1" layer="1" rot="R180"/>
-<smd name="AGNDAD1" x="8.25" y="10.5" dx="0.3" dy="1" layer="1"/>
-<smd name="VIN1-" x="7.75" y="10.5" dx="0.3" dy="1" layer="1"/>
-<smd name="VIN1+" x="7.25" y="10.5" dx="0.3" dy="1" layer="1"/>
-<smd name="VIN2-" x="6.75" y="10.5" dx="0.3" dy="1" layer="1"/>
-<smd name="VIN2+" x="6.25" y="10.5" dx="0.3" dy="1" layer="1"/>
-<smd name="VIN3-" x="5.75" y="10.5" dx="0.3" dy="1" layer="1"/>
-<smd name="VIN3+" x="5.25" y="10.5" dx="0.3" dy="1" layer="1"/>
-<smd name="VIN4-" x="4.75" y="10.5" dx="0.3" dy="1" layer="1"/>
-<smd name="VIN4+" x="4.25" y="10.5" dx="0.3" dy="1" layer="1"/>
-<smd name="AREFAD1" x="3.75" y="10.5" dx="0.3" dy="1" layer="1"/>
-<smd name="AREFAD2" x="3.25" y="10.55" dx="0.3" dy="1" layer="1"/>
-<smd name="VIN5-" x="2.75" y="10.5" dx="0.3" dy="1" layer="1"/>
-<smd name="VIN5+" x="2.25" y="10.5" dx="0.3" dy="1" layer="1"/>
-<smd name="VIN6-" x="1.75" y="10.5" dx="0.3" dy="1" layer="1"/>
-<smd name="VIN6+" x="1.25" y="10.5" dx="0.3" dy="1" layer="1"/>
-<wire x1="0" y1="10.008" x2="10" y2="10.008" width="0.09" layer="51"/>
-<wire x1="8.5" y1="1.5" x2="8.5" y2="8.625" width="0.127" layer="121"/>
-<wire x1="8.5" y1="8.625" x2="1.5" y2="8.625" width="0.127" layer="121"/>
-<wire x1="1.5" y1="8.625" x2="1.5" y2="1.5" width="0.127" layer="121"/>
-<wire x1="1.5" y1="1.5" x2="8.5" y2="1.5" width="0.127" layer="121"/>
-</package>
-</packages>
-</library>
 <library name="STM32">
 <packages>
 <package name="LQFP144">
@@ -774,6 +654,126 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 </package>
 </packages>
 </library>
+<library name="LDL_vreg">
+<packages>
+<package name="SOT223">
+<description>&lt;b&gt;Small Outline Transistor 223&lt;/b&gt;&lt;p&gt;
+PLASTIC PACKAGE CASE 318E-04&lt;br&gt;
+Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
+<wire x1="3.277" y1="1.778" x2="3.277" y2="-1.778" width="0.2032" layer="21"/>
+<wire x1="3.277" y1="-1.778" x2="-3.277" y2="-1.778" width="0.2032" layer="21"/>
+<wire x1="-3.277" y1="-1.778" x2="-3.277" y2="1.778" width="0.2032" layer="21"/>
+<wire x1="-3.277" y1="1.778" x2="3.277" y2="1.778" width="0.2032" layer="21"/>
+<wire x1="0" y1="-0.7" x2="0" y2="0.6" width="0.127" layer="48"/>
+<wire x1="0" y1="0.6" x2="-0.2" y2="0.2" width="0.127" layer="48"/>
+<wire x1="-0.2" y1="0.2" x2="0.2" y2="0.2" width="0.127" layer="48"/>
+<wire x1="0.2" y1="0.2" x2="0" y2="0.6" width="0.127" layer="48"/>
+<wire x1="0" y1="-0.7" x2="0.2" y2="-0.3" width="0.127" layer="48"/>
+<wire x1="0.2" y1="-0.3" x2="-0.2" y2="-0.3" width="0.127" layer="48"/>
+<wire x1="-0.2" y1="-0.3" x2="0" y2="-0.7" width="0.127" layer="48"/>
+<smd name="GND" x="-2.3" y="-3.15" dx="1.5" dy="2" layer="1"/>
+<smd name="VOUT2" x="0" y="-3.15" dx="1.5" dy="2" layer="1"/>
+<smd name="VIN" x="2.3" y="-3.15" dx="1.5" dy="2" layer="1"/>
+<smd name="VOUT1" x="0" y="3.15" dx="3.8" dy="2" layer="1"/>
+<text x="-2.54" y="0.0508" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.54" y="-1.3208" size="1.27" layer="27">&gt;VALUE</text>
+<text x="0.4" y="0.4" size="0.254" layer="48">direction of pcb</text>
+<text x="0.4" y="-0.05" size="0.254" layer="48">transportation for</text>
+<text x="0.4" y="-0.5" size="0.254" layer="48">wavesoldering</text>
+<rectangle x1="-0.9271" y1="1.1303" x2="0.9271" y2="4.3307" layer="51" rot="R270"/>
+<rectangle x1="-0.9271" y1="-3.1623" x2="0.9271" y2="-2.2987" layer="51" rot="R270"/>
+<rectangle x1="-3.2385" y1="-3.1623" x2="-1.3843" y2="-2.2987" layer="51" rot="R270"/>
+<rectangle x1="1.3843" y1="-3.1623" x2="3.2385" y2="-2.2987" layer="51" rot="R270"/>
+<rectangle x1="-0.9271" y1="1.1303" x2="0.9271" y2="4.3307" layer="51" rot="R270"/>
+<rectangle x1="-0.9271" y1="-3.1623" x2="0.9271" y2="-2.2987" layer="51" rot="R270"/>
+<rectangle x1="-3.2385" y1="-3.1623" x2="-1.3843" y2="-2.2987" layer="51" rot="R270"/>
+<rectangle x1="1.3843" y1="-3.1623" x2="3.2385" y2="-2.2987" layer="51" rot="R270"/>
+</package>
+</packages>
+</library>
+<library name="pcm3168">
+<packages>
+<package name="QFN-64-9X9MM">
+<description>&lt;h3&gt;64-pin QFN 9x9mm, 0.5mm pitch&lt;/h3&gt;
+&lt;p&gt;Package used by ATmega128RFA1&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.atmel.com/Images/Atmel-8266-MCU_Wireless-ATmega128RFA1_Datasheet.pdf"&gt;Example Datasheet&lt;/a&gt;&lt;/p&gt;</description>
+<wire x1="0.008" y1="10" x2="0.008" y2="0" width="0.09" layer="51"/>
+<text x="5" y="5.02" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="5" y="5.03" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<wire x1="0" y1="0.008" x2="10" y2="0.008" width="0.09" layer="51"/>
+<wire x1="9.992" y1="0" x2="9.992" y2="10" width="0.09" layer="51"/>
+<smd name="VCOMAD" x="-0.5" y="8.75" dx="0.3" dy="1" layer="1" rot="R270"/>
+<smd name="AGNDAD2" x="-0.5" y="8.25" dx="0.3" dy="1" layer="1" rot="R90"/>
+<smd name="VCCAD2" x="-0.5" y="7.75" dx="0.3" dy="1" layer="1" rot="R90"/>
+<smd name="RST" x="-0.5" y="7.25" dx="0.3" dy="1" layer="1" rot="R90"/>
+<smd name="OVF" x="-0.5" y="6.75" dx="0.3" dy="1" layer="1" rot="R90"/>
+<smd name="LRCKAD" x="-0.5" y="6.25" dx="0.3" dy="1" layer="1" rot="R90"/>
+<smd name="BCKAD" x="-0.5" y="5.75" dx="0.3" dy="1" layer="1" rot="R90"/>
+<smd name="DOUT1" x="-0.5" y="5.25" dx="0.3" dy="1" layer="1" rot="R90"/>
+<smd name="DOUT2" x="-0.5" y="4.75" dx="0.3" dy="1" layer="1" rot="R90"/>
+<smd name="DOUT3" x="-0.5" y="4.25" dx="0.3" dy="1" layer="1" rot="R90"/>
+<smd name="DGND2" x="-0.5" y="3.75" dx="0.3" dy="1" layer="1" rot="R90"/>
+<smd name="VDD2" x="-0.5" y="3.25" dx="0.3" dy="1" layer="1" rot="R90"/>
+<smd name="ZERO" x="-0.5" y="2.75" dx="0.3" dy="1" layer="1" rot="R90"/>
+<smd name="VCCDA1" x="-0.5" y="2.25" dx="0.3" dy="1" layer="1" rot="R90"/>
+<smd name="VCOMDA" x="-0.5" y="1.75" dx="0.3" dy="1" layer="1" rot="R90"/>
+<smd name="AGNDDA1" x="-0.5" y="1.25" dx="0.3" dy="1" layer="1" rot="R90"/>
+<smd name="VOUT8+" x="1.25" y="-0.5" dx="0.3" dy="1" layer="1"/>
+<smd name="VOUT8-" x="1.75" y="-0.5" dx="0.3" dy="1" layer="1" rot="R180"/>
+<smd name="VOUT7+" x="2.25" y="-0.5" dx="0.3" dy="1" layer="1" rot="R180"/>
+<smd name="VOUT7-" x="2.75" y="-0.5" dx="0.3" dy="1" layer="1" rot="R180"/>
+<smd name="VOUT6+" x="3.25" y="-0.5" dx="0.3" dy="1" layer="1" rot="R180"/>
+<smd name="VOUT6-" x="3.75" y="-0.5" dx="0.3" dy="1" layer="1" rot="R180"/>
+<smd name="VOUT5+" x="4.25" y="-0.5" dx="0.3" dy="1" layer="1" rot="R180"/>
+<smd name="VOUT5-" x="4.75" y="-0.5" dx="0.3" dy="1" layer="1" rot="R180"/>
+<smd name="VOUT4+" x="5.25" y="-0.5" dx="0.3" dy="1" layer="1" rot="R180"/>
+<smd name="VOUT4-" x="5.75" y="-0.5" dx="0.3" dy="1" layer="1" rot="R180"/>
+<smd name="VOUT3+" x="6.25" y="-0.5" dx="0.3" dy="1" layer="1" rot="R180"/>
+<smd name="VOUT3-" x="6.75" y="-0.5" dx="0.3" dy="1" layer="1" rot="R180"/>
+<smd name="VOUT2+" x="7.25" y="-0.5" dx="0.3" dy="1" layer="1" rot="R180"/>
+<smd name="VOUT2-" x="7.75" y="-0.5" dx="0.3" dy="1" layer="1" rot="R180"/>
+<smd name="VOUT1+" x="8.25" y="-0.5" dx="0.3" dy="1" layer="1" rot="R180"/>
+<smd name="VOUT1-" x="8.75" y="-0.5" dx="0.3" dy="1" layer="1" rot="R180"/>
+<smd name="AGNDDA2" x="10.5" y="1.3" dx="0.3" dy="1" layer="1" rot="R90"/>
+<smd name="VCCDA2" x="10.5" y="1.8" dx="0.3" dy="1" layer="1" rot="R270"/>
+<smd name="LRCKDA" x="10.5" y="2.3" dx="0.3" dy="1" layer="1" rot="R270"/>
+<smd name="BCKDA" x="10.5" y="2.8" dx="0.3" dy="1" layer="1" rot="R270"/>
+<smd name="DIN1" x="10.5" y="3.3" dx="0.3" dy="1" layer="1" rot="R270"/>
+<smd name="DIN2" x="10.5" y="3.8" dx="0.3" dy="1" layer="1" rot="R270"/>
+<smd name="DIN3" x="10.5" y="4.3" dx="0.3" dy="1" layer="1" rot="R270"/>
+<smd name="DIN4" x="10.5" y="4.8" dx="0.3" dy="1" layer="1" rot="R270"/>
+<smd name="SCKI" x="10.5" y="5.3" dx="0.3" dy="1" layer="1" rot="R270"/>
+<smd name="MC/SCL/FMT" x="10.5" y="5.8" dx="0.3" dy="1" layer="1" rot="R270"/>
+<smd name="MDI/SDA/DEMP" x="10.5" y="6.3" dx="0.3" dy="1" layer="1" rot="R270"/>
+<smd name="MDO/ADR1/MD1" x="10.5" y="6.8" dx="0.3" dy="1" layer="1" rot="R270"/>
+<smd name="MS/ADR0/MD0" x="10.5" y="7.3" dx="0.3" dy="1" layer="1" rot="R270"/>
+<smd name="VDD1" x="10.5" y="7.8" dx="0.3" dy="1" layer="1" rot="R270"/>
+<smd name="DGND1" x="10.5" y="8.3" dx="0.3" dy="1" layer="1" rot="R270"/>
+<smd name="MODE" x="10.5" y="8.8" dx="0.3" dy="1" layer="1" rot="R270"/>
+<smd name="VCCAD1" x="8.75" y="10.5" dx="0.3" dy="1" layer="1" rot="R180"/>
+<smd name="AGNDAD1" x="8.25" y="10.5" dx="0.3" dy="1" layer="1"/>
+<smd name="VIN1-" x="7.75" y="10.5" dx="0.3" dy="1" layer="1"/>
+<smd name="VIN1+" x="7.25" y="10.5" dx="0.3" dy="1" layer="1"/>
+<smd name="VIN2-" x="6.75" y="10.5" dx="0.3" dy="1" layer="1"/>
+<smd name="VIN2+" x="6.25" y="10.5" dx="0.3" dy="1" layer="1"/>
+<smd name="VIN3-" x="5.75" y="10.5" dx="0.3" dy="1" layer="1"/>
+<smd name="VIN3+" x="5.25" y="10.5" dx="0.3" dy="1" layer="1"/>
+<smd name="VIN4-" x="4.75" y="10.5" dx="0.3" dy="1" layer="1"/>
+<smd name="VIN4+" x="4.25" y="10.5" dx="0.3" dy="1" layer="1"/>
+<smd name="AREFAD1" x="3.75" y="10.5" dx="0.3" dy="1" layer="1"/>
+<smd name="AREFAD2" x="3.25" y="10.55" dx="0.3" dy="1" layer="1"/>
+<smd name="VIN5-" x="2.75" y="10.5" dx="0.3" dy="1" layer="1"/>
+<smd name="VIN5+" x="2.25" y="10.5" dx="0.3" dy="1" layer="1"/>
+<smd name="VIN6-" x="1.75" y="10.5" dx="0.3" dy="1" layer="1"/>
+<smd name="VIN6+" x="1.25" y="10.5" dx="0.3" dy="1" layer="1"/>
+<wire x1="0" y1="10.008" x2="10" y2="10.008" width="0.09" layer="51"/>
+<wire x1="8.5" y1="1.5" x2="8.5" y2="8.625" width="0.127" layer="121"/>
+<wire x1="8.5" y1="8.625" x2="1.5" y2="8.625" width="0.127" layer="121"/>
+<wire x1="1.5" y1="8.625" x2="1.5" y2="1.5" width="0.127" layer="121"/>
+<wire x1="1.5" y1="1.5" x2="8.5" y2="1.5" width="0.127" layer="121"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -966,21 +966,9 @@ design rules under a new name.</description>
 <element name="C1" library="adafruit" package="C0603" value="" x="46.99" y="60.96"/>
 <element name="C2" library="adafruit" package="C1206" value="" x="52.07" y="60.96"/>
 <element name="IC1" library="EEZ_xmos" package="TQ128" value="" x="55.88" y="49.53"/>
+<element name="U$1" library="STM32" package="LQFP144" value="STM32H743ZIT6" x="49.53" y="26.67"/>
 <element name="U$2" library="LDL_vreg" package="SOT223" value="LDL1117" x="58.42" y="64.77"/>
 <element name="U$3" library="pcm3168" package="QFN-64-9X9MM" value="PCM3168A" x="35.56" y="43.18"/>
-<element name="U$1" library="STM32" package="LQFP144" value="STM32H743ZIT6" x="-13.97" y="13.97"/>
-<element name="C3" library="adafruit" package="C0603" value="" x="-24.13" y="-3.81"/>
-<element name="C4" library="adafruit" package="C0603" value="" x="-24.13" y="-7.62"/>
-<element name="C5" library="adafruit" package="C0603" value="" x="-24.13" y="-11.43"/>
-<element name="C6" library="adafruit" package="C0603" value="" x="-24.13" y="-15.24"/>
-<element name="C7" library="adafruit" package="C0603" value="" x="-24.13" y="-19.05"/>
-<element name="C8" library="adafruit" package="C0603" value="" x="-24.13" y="-22.86"/>
-<element name="C9" library="adafruit" package="C0603" value="" x="-24.13" y="-26.67"/>
-<element name="C10" library="adafruit" package="C0603" value="" x="-24.13" y="-30.48"/>
-<element name="C11" library="adafruit" package="C0603" value="" x="-24.13" y="-34.29"/>
-<element name="C12" library="adafruit" package="C0603" value="" x="-24.13" y="-38.1"/>
-<element name="C13" library="adafruit" package="C0603" value="" x="-24.13" y="-41.91"/>
-<element name="C14" library="adafruit" package="C0603" value="" x="-24.13" y="-45.72"/>
 </elements>
 <signals>
 <signal name="VDD-101">
@@ -1092,48 +1080,8 @@ design rules under a new name.</description>
 <contactref element="C1" pad="2"/>
 <contactref element="U$2" pad="GND"/>
 <contactref element="C2" pad="2"/>
-<contactref element="C3" pad="2"/>
-<contactref element="U$1" pad="16"/>
-<contactref element="C4" pad="2"/>
-<contactref element="C6" pad="2"/>
-<contactref element="C7" pad="2"/>
-<contactref element="C8" pad="2"/>
-<contactref element="C9" pad="2"/>
-<contactref element="C10" pad="2"/>
-<contactref element="U$1" pad="107"/>
-<contactref element="U$1" pad="94"/>
-<contactref element="U$1" pad="83"/>
-<contactref element="U$1" pad="61"/>
-<contactref element="U$1" pad="51"/>
-<contactref element="C14" pad="2"/>
-<contactref element="C13" pad="2"/>
-<contactref element="C12" pad="2"/>
-<contactref element="C11" pad="2"/>
-<contactref element="U$1" pad="120"/>
-<contactref element="U$1" pad="130"/>
-<contactref element="U$1" pad="31"/>
 <wire x1="53.47" y1="60.96" x2="56.12" y2="61.62" width="0" layer="19" extent="1-1"/>
 <wire x1="47.84" y1="60.96" x2="53.47" y2="60.96" width="0" layer="19" extent="1-1"/>
-<wire x1="-3.07" y1="17.22" x2="47.84" y2="60.96" width="0" layer="19" extent="1-1"/>
-<wire x1="-3.07" y1="12.22" x2="-3.07" y2="17.22" width="0" layer="19" extent="1-1"/>
-<wire x1="-7.72" y1="3.07" x2="-3.07" y2="12.22" width="0" layer="19" extent="1-1"/>
-<wire x1="-15.22" y1="3.07" x2="-7.72" y2="3.07" width="0" layer="19" extent="1-1"/>
-<wire x1="-10.22" y1="24.87" x2="-3.07" y2="17.22" width="0" layer="19" extent="1-1"/>
-<wire x1="-15.72" y1="24.87" x2="-10.22" y2="24.87" width="0" layer="19" extent="1-1"/>
-<wire x1="-22.22" y1="24.87" x2="-15.72" y2="24.87" width="0" layer="19" extent="1-1"/>
-<wire x1="-24.87" y1="17.22" x2="-22.22" y2="24.87" width="0" layer="19" extent="1-1"/>
-<wire x1="-24.87" y1="12.22" x2="-24.87" y2="17.22" width="0" layer="19" extent="1-1"/>
-<wire x1="-23.28" y1="-3.81" x2="-15.22" y2="3.07" width="0" layer="19" extent="1-1"/>
-<wire x1="-23.28" y1="-7.62" x2="-23.28" y2="-3.81" width="0" layer="19" extent="1-1"/>
-<wire x1="-23.28" y1="-15.24" x2="-23.28" y2="-7.62" width="0" layer="19" extent="1-1"/>
-<wire x1="-23.28" y1="-19.05" x2="-23.28" y2="-15.24" width="0" layer="19" extent="1-1"/>
-<wire x1="-23.28" y1="-22.86" x2="-23.28" y2="-19.05" width="0" layer="19" extent="1-1"/>
-<wire x1="-23.28" y1="-26.67" x2="-23.28" y2="-22.86" width="0" layer="19" extent="1-1"/>
-<wire x1="-23.28" y1="-30.48" x2="-23.28" y2="-26.67" width="0" layer="19" extent="1-1"/>
-<wire x1="-23.28" y1="-34.29" x2="-23.28" y2="-30.48" width="0" layer="19" extent="1-1"/>
-<wire x1="-23.28" y1="-38.1" x2="-23.28" y2="-34.29" width="0" layer="19" extent="1-1"/>
-<wire x1="-23.28" y1="-41.91" x2="-23.28" y2="-38.1" width="0" layer="19" extent="1-1"/>
-<wire x1="-23.28" y1="-45.72" x2="-23.28" y2="-41.91" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VCC">
 <contactref element="C1" pad="1"/>
@@ -1143,60 +1091,7 @@ design rules under a new name.</description>
 <signal name="+3V3">
 <contactref element="U$2" pad="VOUT1"/>
 <contactref element="C2" pad="1"/>
-<contactref element="U$1" pad="17"/>
-<contactref element="C3" pad="1"/>
-<contactref element="U$1" pad="30"/>
-<contactref element="C4" pad="1"/>
-<contactref element="U$1" pad="39"/>
-<contactref element="C5" pad="1"/>
-<contactref element="U$1" pad="52"/>
-<contactref element="C6" pad="1"/>
-<contactref element="U$1" pad="62"/>
-<contactref element="C7" pad="1"/>
-<contactref element="U$1" pad="72"/>
-<contactref element="C8" pad="1"/>
-<contactref element="U$1" pad="84"/>
-<contactref element="C9" pad="1"/>
-<contactref element="C10" pad="1"/>
-<contactref element="U$1" pad="108"/>
-<contactref element="U$1" pad="121"/>
-<contactref element="C11" pad="1"/>
-<contactref element="U$1" pad="131"/>
-<contactref element="C12" pad="1"/>
-<contactref element="U$1" pad="144"/>
-<contactref element="C13" pad="1"/>
-<contactref element="U$1" pad="33"/>
-<contactref element="C14" pad="1"/>
 <wire x1="50.67" y1="60.96" x2="58.42" y2="67.92" width="0" layer="19" extent="1-1"/>
-<wire x1="-3.07" y1="22.77" x2="50.67" y2="60.96" width="0" layer="19" extent="1-1"/>
-<wire x1="-3.07" y1="17.72" x2="-3.07" y2="22.77" width="0" layer="19" extent="1-1"/>
-<wire x1="-3.07" y1="12.72" x2="-3.07" y2="17.72" width="0" layer="19" extent="1-1"/>
-<wire x1="-3.07" y1="6.22" x2="-3.07" y2="12.72" width="0" layer="19" extent="1-1"/>
-<wire x1="-6.72" y1="3.07" x2="-3.07" y2="6.22" width="0" layer="19" extent="1-1"/>
-<wire x1="-8.22" y1="3.07" x2="-6.72" y2="3.07" width="0" layer="19" extent="1-1"/>
-<wire x1="-14.72" y1="3.07" x2="-8.22" y2="3.07" width="0" layer="19" extent="1-1"/>
-<wire x1="-10.72" y1="24.87" x2="-3.07" y2="22.77" width="0" layer="19" extent="1-1"/>
-<wire x1="-24.87" y1="5.17" x2="-14.72" y2="3.07" width="0" layer="19" extent="1-1"/>
-<wire x1="-24.87" y1="11.72" x2="-24.87" y2="5.17" width="0" layer="19" extent="1-1"/>
-<wire x1="-24.87" y1="16.72" x2="-24.87" y2="11.72" width="0" layer="19" extent="1-1"/>
-<wire x1="-22.77" y1="24.87" x2="-24.87" y2="16.72" width="0" layer="19" extent="1-1"/>
-<wire x1="-24.98" y1="-3.81" x2="-24.87" y2="5.17" width="0" layer="19" extent="1-1"/>
-<wire x1="-24.98" y1="-7.62" x2="-24.98" y2="-3.81" width="0" layer="19" extent="1-1"/>
-<wire x1="-24.98" y1="-11.43" x2="-24.98" y2="-7.62" width="0" layer="19" extent="1-1"/>
-<wire x1="-24.98" y1="-15.24" x2="-24.98" y2="-11.43" width="0" layer="19" extent="1-1"/>
-<wire x1="-24.98" y1="-19.05" x2="-24.98" y2="-15.24" width="0" layer="19" extent="1-1"/>
-<wire x1="-24.98" y1="-22.86" x2="-24.98" y2="-19.05" width="0" layer="19" extent="1-1"/>
-<wire x1="-24.98" y1="-26.67" x2="-24.98" y2="-22.86" width="0" layer="19" extent="1-1"/>
-<wire x1="-24.98" y1="-30.48" x2="-24.98" y2="-26.67" width="0" layer="19" extent="1-1"/>
-<wire x1="-24.98" y1="-34.29" x2="-24.98" y2="-30.48" width="0" layer="19" extent="1-1"/>
-<wire x1="-24.98" y1="-38.1" x2="-24.98" y2="-34.29" width="0" layer="19" extent="1-1"/>
-<wire x1="-24.98" y1="-41.91" x2="-24.98" y2="-38.1" width="0" layer="19" extent="1-1"/>
-<wire x1="-24.98" y1="-45.72" x2="-24.98" y2="-41.91" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$1">
-<contactref element="U$1" pad="38"/>
-<contactref element="C5" pad="2"/>
-<wire x1="-3.07" y1="5.72" x2="-23.28" y2="-11.43" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>
